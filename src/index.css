@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.circle {
+  background-color: rgb(85, 51, 36);
+  width: 50px;
+  line-height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+}
+
+button {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
 }
